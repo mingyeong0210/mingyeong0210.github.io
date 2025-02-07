@@ -21,6 +21,11 @@ body {
     margin: 0;
 }
 
+section {
+    padding: 40px;
+}
+
+/* header */
 header {
     position: fixed;
     left: 0;
@@ -55,10 +60,7 @@ header {
     font-weight: 700;
 }
 
-section {
-    padding: 50px;
-}
-
+/* firstPage */
 #first_page {
     text-align: center;
     background-color: #F3F4FF;
@@ -73,5 +75,33 @@ section {
     font-family: 'PretendardB', sans-serif;
     font-size: 40px;
     font-weight: 700;
+    line-height: 4rem;
+}
+
+/* aboutMe page */
+#txt_title {
+    font-family: 'PretendardB', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 80px;
+}
+
+#profile_txt_area {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.profile_txt {
+    font-family: 'PretendardM', sans-serif;
+    font-size: 20px;
     line-height: 4rem;
 }
