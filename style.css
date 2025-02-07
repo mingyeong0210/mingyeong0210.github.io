@@ -1,21 +1,48 @@
+@font-face {
+    font-family: 'PretendaredM';
+    src: url('./fonts/Pretendard-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PretendardSB';
+    src: url('./fonts/Pretendard-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'PretendardB';
+    src: url('./fonts/Pretendard-Bold.ttf');
+}
+
+html {
+    scroll-behavior: smooth; /* 스크롤 애니메이션 */
+}
+
+body {
+    margin: 0;
+}
+
 header {
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
     height: 4rem;
+    background-color: white;
     border-bottom: 1px solid #D9D9D9;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
 }
 
 #header_menu a{
     text-align: center;
     color: #787878;
+    font-family: 'PretendardM', sans-serif; 
     font-size: 16px;
     font-weight: 500;
+    text-decoration: none;
     letter-spacing: -0.16px;
     margin-left: 20px;
     margin-right: 20px;
@@ -26,4 +53,25 @@ header {
     color: #6D24FF;
     font-size: 20px;
     font-weight: 700;
+}
+
+section {
+    padding: 50px;
+}
+
+#first_page {
+    text-align: center;
+    background-color: #F3F4FF;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#txt_welcome {
+    font-family: 'PretendardB', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 4rem;
 }
