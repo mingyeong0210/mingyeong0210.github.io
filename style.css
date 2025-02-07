@@ -79,6 +79,7 @@ header {
 }
 
 /* aboutMe page */
+    /* profile */
 #txt_title {
     font-family: 'PretendardB', sans-serif;
     font-size: 30px;
@@ -104,4 +105,88 @@ header {
     font-family: 'PretendardM', sans-serif;
     font-size: 20px;
     line-height: 4rem;
+}
+
+    /* category */
+#category {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 40px;
+}
+
+.sub_title {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+#txt_subtitle {
+    font-family: 'PretendardM', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #909090;
+    padding: 0px 40px;
+}
+
+.line {
+   display: flex;
+   flex-basis: 100%;
+   align-items: center;
+   
+   margin: 8px 0px
+}
+
+.line::before {
+    content: "";
+    flex-grow: 1;
+    margin: 0px 16px;
+    background: linear-gradient( to right, white, #DFDFDF );
+    height: 2px;
+    font-size: 0px;
+    line-height: 0px;
+    margin-right: 16px;
+}
+
+.line::after {
+    content: "";
+    flex-grow: 1;
+    margin: 0px 16px;
+    background: linear-gradient( to left, white, #DFDFDF );
+    height: 2px;
+    font-size: 0px;
+    line-height: 0px;
+    margin-left: 16px;
+}
+
+.content_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 30%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+#txt_date {
+    margin-left: 1rem;
+    font-family: 'PretendardM';
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+    opacity: 60%;
+}
+
+#txt_content {
+    margin-left: 2rem;
+    font-family: 'PretendardM';
+    font-size: 18px;
+    font-weight: 500;
+    color: #222;
 }
