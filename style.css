@@ -195,7 +195,8 @@ header {
 #skills {
     text-align: center;
     background-color: #F3F4FF;
-    height: 100vh;
+    padding-bottom: 2rem;
+    /* height: 100vh; */
 }
 
 #skills_container {
@@ -212,9 +213,8 @@ header {
     justify-content: center;
     margin: 24px 0;
     background-color: white;
-    width: 40vw;
     border-radius: 16px;
-    padding: 24px 0;
+    padding: 24px 40px;
 }
 
 .skills_subtitle {
@@ -226,4 +226,81 @@ header {
 
 .skills_category img {
     height: 50px;
+}
+
+/* projects */
+#projects {
+    text-align: center;
+    height: 100vh;
+}
+
+#projects_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#projects_menu {
+    font-family: 'PretendardB';
+    font-size: 20px;
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #ddd;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+input[type="radio"]:checked + label {
+    background-color: white;
+}
+
+#projects_content {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    margin: 20px;
+    gap: 20px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    font-family: 'PretendardM';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.project:hover {
+    opacity: 50%;
+}
+
+.project_title {
+    font-family: 'PretendardB';
+    font-size: 20px;
+    color: #222;
+}
+
+.txt_container { 
+    padding: 0 2rem;
+    color: #787878;
 }
