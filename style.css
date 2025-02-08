@@ -84,6 +84,7 @@ header {
     font-family: 'PretendardB', sans-serif;
     font-size: 30px;
     text-align: center;
+    margin-top: 80px;
 }
 
 #profile {
@@ -91,7 +92,6 @@ header {
     flex-direction: row;
     justify-content: center;
     gap: 80px;
-    margin-top: 80px;
 }
 
 #profile_txt_area {
