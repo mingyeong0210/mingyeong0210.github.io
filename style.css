@@ -304,3 +304,43 @@ input[type="radio"]:checked + label {
     padding: 0 2rem;
     color: #787878;
 }
+
+/* record */
+#record {
+    text-align: center;
+    background-color: #F3F4FF;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-bottom: 2rem; */
+}
+
+#record_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.record_content {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #222;
+}
+
+.record_content:hover {
+    opacity: 50%;
+}
+
+/* education */
+#record {
+    text-align: center;
+    height: 100vh;
+    /* padding-bottom: 2rem; */
+}
